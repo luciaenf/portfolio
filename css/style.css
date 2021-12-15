@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --cor-primaria: #008b76;
+    --cor-secundaria: #55a38b;
+    --cor-terciaria: #01594c;
+}
+
+* {
+    font-family: 'Outfit', sans-serif;
+}
+
+/* Navegação */
+#nav-barra {
+    background-color: #f2f2f2;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.233);
+}
+
+#botao-identificacao-nav a,
+#navegacao button{
+    color: var(--cor-primaria);
+    text-decoration: none;
+    transition: .2s all;
+}
+
+#navegacao button:focus{
+    box-shadow: none;
+}
+
+.item-navegacao:hover {
+    color: var(--cor-secundaria) !important;
+    transform: scale(1.3) !important;
+}

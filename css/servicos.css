@@ -1,0 +1,27 @@
+.img-servico{
+    border-radius: 10%; filter: opacity(0.8);
+}
+
+@keyframes move-l {
+    from {
+        transform: translateX(-200px);
+    } to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes move-r {
+    from {
+        transform: translateX(200px);
+    } to {
+        transform: translateX(0);
+    }
+}
+
+.item-move-l{
+    animation: move-l .5s normal;
+}
+
+.item-move-r{
+    animation: move-r .5s normal;
+}

@@ -1,0 +1,51 @@
+#home {
+    color: var(--cor-secundaria);
+}
+
+#img-planta {
+    position: absolute;
+    right: 0;
+    top: 15%;
+    height: 540px;
+}
+
+@keyframes move-left {
+    from {
+        transform: translateX(100px);
+    } to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes move-right {
+    from {
+        transform: translateX(-100px);
+    } to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 100;
+    }
+}
+
+#texto-inicial-1{
+    animation: move-left 1s normal !important;
+}
+
+#texto-inicial-2{
+    animation: move-right 1s normal !important;
+}
+
+
+#botao-identificacao-nav{
+    animation: fade-in 2s normal !important;
+}
+
+#a-ver-mais{
+    color: var(--cor-secundaria);
+}

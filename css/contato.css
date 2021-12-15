@@ -1,0 +1,8 @@
+#contato, .contato-btn{
+    color: var(--cor-terciaria);
+}
+
+
+.contato-btn:hover{
+    color: var(--cor-primaria);
+}
